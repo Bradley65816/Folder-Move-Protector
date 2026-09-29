@@ -1,5 +1,18 @@
 # Folder Move Protector
 
+!!PACKAGE.PS1 CURRENTLY BROKEN!!
+I need to fix the file path issue
+Could not find C:\Users\Scott\Downloads\All Move Protector Files\Settings\bin\Release\net48. Build all three 
+projects (Release, x64) first.
+At C:\Users\Scott\Downloads\All Move Protector Files\Package.ps1:21 char:9
++         throw "Could not find $path. Build all three projects (Releas ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Could not find ...se, x64) first.:String) [], RuntimeExcept 
+   ion
+    + FullyQualifiedErrorId : Could not find C:\Users\Scott\Downloads\All Move Protector Files\Settings\bin\ 
+   Release\net48. Build all three projects (Release, x64) first.
+Will look into it tomorrow.
+
 Prompts for confirmation before a **folder** (never a plain file) is moved
 into or out of a configured set of protected directories, via Windows
 Explorer. Includes a small GUI so the protected-folder list can be changed
