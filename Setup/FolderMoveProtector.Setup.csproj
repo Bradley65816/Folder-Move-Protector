@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <PlatformTarget>x64</PlatformTarget>
+    <AssemblyName>Setup</AssemblyName>
+    <RootNamespace>FolderMoveProtector.Setup</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <!-- Needed for the 'dynamic' keyword, used for the Start Menu shortcut. -->
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+
+  <!--
+    Deliberately NO <ProjectReference> to Hook or Settings here. Setup.exe
+    doesn't need their source code - it just needs their ALREADY-BUILT
+    output files sitting next to it at runtime, which is exactly what lets
+    you build once and hand the three resulting files to any machine.
+  -->
+
+</Project>
