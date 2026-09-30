@@ -1,9 +1,13 @@
 # Folder Move Protector
 
-Prompts for confirmation before a **folder** (never a plain file) is moved
+Prompts for confirmation before a **folder** (not a plain file) is moved
 into, out of, or within a configured set of protected directories, via
 Windows Explorer. Includes a small GUI so the protected-folder list can be
 changed without recompiling anything, and a standalone installer.
+
+For anyone looking to just run the executable, the project is compiled into 
+the /dist folder. If you want to build the project for yourself, download
+this main branch and follow the readme file's instructions.
 
 ## Folder layout
 
