@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "HZA4X6bywn8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Scott\\Downloads\\Complete Folder Move Protector\\Hook\\FolderMoveProtector.Hook.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Scott\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\Scott\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net48\\1.0.3\\microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
